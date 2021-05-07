@@ -82,3 +82,53 @@ article {
 .article_btn-link:hover {
   background-color: var(--color-link2);
 }
+
+/*==========PREVIOUS NEXT==========*/
+
+.navigation_list-item a,
+.navigation_list-item a:focus {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.navigation_list-item:hover{
+  transform: scale(1.1);
+  background-color: var(--color-link2);
+  font-weight: bold;
+}
+
+.navigation_list {
+  justify-content: space-between;
+}
+
+.navigation_list-item {
+  background-color: var(--color-link2);
+  font-weight: bold;
+  transition: transform .5s ease-in-out;
+}
+
+/*==========ASIDE==========*/
+.aside_form {
+  margin-bottom: 1rem;
+}
+
+.card_border {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.card-header--bg a {
+  color: #fff;
+}
+
+.card-header--bg {
+  background-color: var(--color-link4);
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav_link {
+  text-align: center;
+  color: var(--color-font-header);
+}
